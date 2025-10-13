@@ -1,3 +1,4 @@
+
 <!DOCTYPE html>
 <html lang="pt-BR">
 <head>
@@ -40,6 +41,15 @@
                 <h3>Merge</h3>
                 <p>O "merge" (mesclagem) é o ato de unir as alterações de um branch em outro. É como você integra as novas funcionalidades desenvolvidas em um branch de volta à linha principal.</p>
                 <pre><code>git merge &lt;nome-do-branch&gt;</code></pre>
+            </div>
+            <div class="conceito">
+                <h3>Adicionando credenciais globais</h3>
+                <p>Nós podemos presetar os usuarios principais do git para ele sempre saber que somos nós que estamos enviando o commit</p>
+                <pre><code>git config --global  user.name "&lt;seu nome no github&gt;" </code></pre>
+                <pre><code>git config --global  user.email "&lt;seu email no github&gt;"</code></pre>
+
+                <p>Para não precisarmos colocar nosso token nós ativamos o manager de credencial</p>
+                <pre><code>git config --global  credencial.helper manager</code></pre>
             </div>
         </section>
 
