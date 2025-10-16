@@ -8,6 +8,81 @@
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
+<<<<<<< HEAD
+    <header>
+        <h1>Introdução ao GIT</h1>
+        <p>Um guia visual para os comandos básicos.</p>
+    </header>
+
+    <main>
+        <section id="conceitos">
+            <h2>Conceitos Fundamentais</h2>
+            <div class="conceito">
+                <h3>Repositório (Repository)</h3>
+                <p>É o local onde o seu projeto "vive". Ele contém todos os arquivos e o histórico de alterações. Pense nele como uma pasta de projeto com superpoderes.</p>
+                <pre><code>git init</code></pre>
+            </div>
+            <div class="conceito">
+                <h3>Área de Preparação (Staging Area)</h3>
+                <p>Antes de salvar permanentemente as suas alterações (commit), você as adiciona à "Área de Preparação". É um passo intermediário que permite escolher quais mudanças serão incluídas no próximo commit.</p>
+                <pre><code>git add &lt;arquivo&gt;</code></pre>
+            </div>
+            <div class="conceito">
+                <h3>Commit</h3>
+                <p>Um "commit" é um registro permanente das suas alterações no repositório. Cada commit tem uma mensagem descritiva que explica as mudanças realizadas.</p>
+                <pre><code>git commit -m "Sua mensagem descritiva aqui"</code></pre>
+            </div>
+            <div class="conceito">
+                <h3>Branch</h3>
+                <p>Um "branch" (ramificação) é uma linha do tempo independente de commits. Permite que você trabalhe em novas funcionalidades ou correções sem afetar a linha de desenvolvimento principal (geralmente chamada de "main" ou "master").</p>
+                <pre><code>git branch &lt;nome-do-branch&gt;</code></pre>
+                <pre><code>git checkout &lt;nome-do-branch&gt;</code></pre>
+            </div>
+             <div class="conceito">
+                <h3>Merge</h3>
+                <p>O "merge" (mesclagem) é o ato de unir as alterações de um branch em outro. É como você integra as novas funcionalidades desenvolvidas em um branch de volta à linha principal.</p>
+                <pre><code>git merge &lt;nome-do-branch&gt;</code></pre>
+            </div>
+            <div class="conceito">
+                <h3>Adicionando credenciais globais</h3>
+                <p>Nós podemos presetar os usuarios principais do git para ele sempre saber que somos nós que estamos enviando o commit</p>
+                <pre><code>git config --global  user.name "&lt;seu nome no github&gt;" </code></pre>
+                <pre><code>git config --global  user.email "&lt;seu email no github&gt;"</code></pre>
+
+                <p>Para não precisarmos colocar nosso token nós ativamos o manager de credencial</p>
+                <pre><code>git config --global  credencial.helper manager</code></pre>
+            </div>
+        </section>
+
+        <section id="fluxo">
+            <h2>Fluxo de Trabalho Básico</h2>
+            <div class="passos">
+                <div class="passo">
+                    <span class="numero">1</span>
+                    <p>Modifique seus arquivos no seu diretório de trabalho.</p>
+                </div>
+                <div class="passo">
+                    <span class="numero">2</span>
+                    <p>Adicione as alterações desejadas à Área de Preparação (<code>git add</code>).</p>
+                </div>
+                <div class="passo">
+                    <span class="numero">3</span>
+                    <p>Faça o commit das alterações para o seu repositório local (<code>git commit</code>).</p>
+                </div>
+                 <div class="passo">
+                    <span class="numero">4</span>
+                    <p>Envie suas alterações para o repositório remoto (<code>git push</code>).</p>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <p>Feito com ❤️ para a sua aula de GIT.</p>
+        <p>Parágrafo intruso porque sim é os guri vambora - Yago</p>
+    </footer>
+=======
     <h1>Teste</h1>
+>>>>>>> 4d77900a07a63106633c31036c1630b7dbaa0e30
 </body>
 </html>
